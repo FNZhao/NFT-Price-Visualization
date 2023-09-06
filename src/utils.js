@@ -1,5 +1,5 @@
 const origin = "https://deep-index.moralis.io";
-const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IjY3OGE3YTM1LTJlODEtNDNkZC1hYTM0LTA0NDhhNjc1ZjU3ZCIsIm9yZ0lkIjoiMzUzODIzIiwidXNlcklkIjoiMzYzNjUzIiwidHlwZUlkIjoiMDk1NmU4YWYtZmM1Yy00MTA2LWE0YjgtOWI2NTgwNmVmNjc0IiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE2OTI0NjQwODIsImV4cCI6NDg0ODIyNDA4Mn0.9ZQN7UdD39dqp2xcfUt2e4B5iDgJoAI1WLFmZGIlt0w";
+const apiKey = "YOUR_MORALIS_API_KEY";
 
 export const getContractNFTs = async (tokenAddress) => {
   const url = new URL(`${origin}/api/v2/nft/${tokenAddress}`);
